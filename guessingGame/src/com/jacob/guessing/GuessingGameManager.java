@@ -107,8 +107,8 @@ public class GuessingGameManager {
 			while (userGuess != this.target) {
 				userGuess = Integer.parseInt(getUserInput("Enter a guess: "));
 				checkUserGuess(userGuess);
-				System.out.println("Try: " + this.target);
-				System.out.println("You typed: " + userGuess);
+//				System.out.println("Try: " + this.target);
+//				System.out.println("You typed: " + userGuess);
 			}
 			continueGame = getUserInput("Congrats! Would you like to continue? 'yes' or 'no': ");
 		}
